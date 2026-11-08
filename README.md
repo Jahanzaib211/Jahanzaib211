@@ -11,7 +11,7 @@
 
 <p align="center">
   <b>I don't rent, I build.</b><br>
-  Self-hosted AI systems: AI workforces, agent sandboxes, local inference, and the commerce platform that pays for them.<br>
+  Self-hosted AI systems: AI teammates, agent sandboxes, local inference, and the commerce platform that pays for them.<br>
   Everything runs on your own hardware, refuses when it can't prove it is safe, and leaves evidence you can check.
 </p>
 
@@ -24,9 +24,9 @@
 <td width="50%" valign="top">
 
 ### 🤖 [Nova Bots](https://github.com/Jahanzaib211/nova-bots)
-Your self-hosted AI workforce. You create AI workers, give each one a role and a model, and put them in groups. They coordinate on their own: they message each other, hand off work and share group chats.
+**Hire your first Nova.** A Nova is an AI teammate that remembers, coordinates and ships, on hardware you own. Novas work in squads, hand off to each other and report to a lead.
 
-There's one engine per account behind a fail-closed, multi-tenant portal. My own AI workers fix the product through PRs that carry their evidence ([repair log](https://github.com/Jahanzaib211/nova-bots/blob/dev/docs/repair-log.md)).
+There's one engine per account behind a fail-closed, multi-tenant portal. My own Novas fix the product through PRs that carry their evidence ([repair log](https://github.com/Jahanzaib211/nova-bots/blob/dev/docs/repair-log.md)).
 
 <a href="https://bots.alilabsx.com"><img src="https://img.shields.io/badge/live-bots.alilabsx.com-52f2c5?style=flat-square&logo=rocket&logoColor=05060a" alt="Live"></a>
 <img src="https://img.shields.io/badge/Node-Electron-1b2233?style=flat-square&logo=electron&logoColor=9feaf9" alt="Electron">
@@ -88,7 +88,7 @@ Each site gets its own database and file store, with templates, a visual editor,
 
 I take on work where owning the stack matters:
 
-- **Custom AI workforces.** I design AI workers with roles and tools for your team, and set them up on your hardware.
+- **Your own team of Novas.** I design AI teammates with roles and tools for your team, and set them up on your hardware.
 - **Self-hosted AI infrastructure.** Local inference, agent sandboxes, multi-tenant portals, auth.
 - **Platform engineering.** Docker, nginx, CI/CD, hardening, and the servers it all runs on.
 
@@ -109,7 +109,7 @@ I also work with **Apex Global Tech Solutions** as its Platform Engineer.
 |---|---|
 | 🔒 **Fail closed** | If the GPU can't be measured, no model is admitted. If a session isn't entitled, it gets no engine. A missing check counts as a "no". |
 | 🧾 **Evidence over claims** | Every "done" names the command that ran and what it printed. Changes go through branches and PRs. |
-| 🤖 **AI workers that ship PRs** | My AI workforce reviews, tests and opens pull requests against its own codebase, and a human approves every merge. |
+| 🤖 **Teammates that ship PRs** | My Novas review, test and open pull requests against their own codebase, and a human approves every merge. |
 | 🏠 **I don't rent, I build** | It's self-hosted by default: your data stays on your machine, the models are yours, and nothing is silently substituted. |
 | 🙏 **Credit upstream** | Forks and borrowed designs are named in each README and `NOTICE`. |
 
