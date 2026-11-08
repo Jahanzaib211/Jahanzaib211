@@ -1,41 +1,48 @@
-<div align="center">
-
 # Jahanzaib Ali
 
-**Building the infrastructure behind AI agents** — agent runtimes, self-hosted LLM gateways, fintech platforms, and the hosting layer underneath. Full-stack, solo-built, production not demos.
+**Founder & Systems Engineer at [AliLabsX](https://alilabsx.com).** Lahore. I build self-hosted AI systems: agent teams, agent sandboxes, local inference, and the commerce platform that pays for them.
 
-[Portfolio](https://jahanzaib211.github.io) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/jahanzaib-ali-labsx) &nbsp;·&nbsp; [alilabsx.com](https://www.alilabsx.com)
-
-</div>
+I taught myself to build from scratch, and AliLabsX is where that work ships. Everything here is built to run on your own hardware, to refuse when it can't prove it is safe, and to leave evidence you can check.
 
 ---
 
-### Flagship build — Nova
+### What I'm building
 
-**[nova.alilabsx.com](https://nova.alilabsx.com)** &nbsp;·&nbsp; [source](https://github.com/Jahanzaib211/nova)
+**[Nova Bots](https://github.com/Jahanzaib211/nova-bots)**: a self-hosted team of long-lived AI bots ([bots.alilabsx.com](https://bots.alilabsx.com)).
+Forked from DS Bot (Apache-2.0, by Fei2411), then extended with a multi-tenant portal (HMAC-signed sessions, token tiers, a fail-closed engine gate, one engine container per account), host-folder mounts and a hardened desktop CSP. My own bot team (Tech Lead, Security Reviewer, QA, Gatekeeper) fixes bugs in the product through PRs that carry their evidence. See the [repair log](https://github.com/Jahanzaib211/nova-bots/blob/docs/repair-log/docs/repair-log.md).
 
-A full-stack computer-use AI agent that researches, codes, and creates. Orchestrates sub-agents, memory, and per-thread sandboxes with a live, streaming six-facet view of its own computer — Files, Terminal, Editor, Browser, Activity, Review. Built on LangGraph and LangChain.
+**[Nova](https://github.com/Jahanzaib211/nova)**: the agent's computer ([nova.alilabsx.com](https://nova.alilabsx.com)).
+A computer-use agent with sub-agents, memory and a sandbox per thread, plus a live view of its Files, Terminal, Editor, Browser, Activity and Review. Built on DeerFlow (MIT) with LangGraph and LangChain.
 
-### Other projects
+**[Loco](https://github.com/Jahanzaib211/loco)**: a local inference lab behind one endpoint.
+Routing is deterministic. VRAM-gated admission refuses a model with measured numbers instead of running out of memory. Long-term memory only changes when you approve it, and the lab UI has no dependencies.
 
-| Project | Description | Stack |
-|---|---|---|
-| [Forge Studio](https://github.com/Jahanzaib211/forge-studio) | Self-hosted AI lab control center — unified LLM proxy with routing, fallbacks, budget tracking, and a visual proxy-pool topology. | TypeScript, Next.js |
-| [Genesis X](https://github.com/Jahanzaib211/Genesis-X-Project) | Digital investment platform for bonds, equities, real estate, and digital assets. Live at [alilabsx.com](https://www.alilabsx.com). | Next.js, NestJS, PostgreSQL |
-| [Ali Kernel](https://github.com/Jahanzaib211/ali-kernel) | Single-binary Rust runtime exposing an OpenAI-compatible API with tool access, RAG memory, self-critique, and observability. | Rust |
-| [fox-hosting](https://github.com/Jahanzaib211/fox-hosting) | Production-grade web hosting platform on WHMCS 8.10 and Next.js 16 with a custom license server. | PHP, Next.js, Docker |
+**Storeloom** (private, commercial): the commerce platform for every kind of brand.
+A multi-tenant store and site builder. Each site gets its own database and file store, and it comes with templates, a visual editor, apps, custom domains with automatic HTTPS, and paid publishing.
+
+<details>
+<summary>More from the lab</summary>
+
+- **[Exora](https://github.com/Jahanzaib211/exora)**: a self-hosted B2B prospecting CRM. It works from public sources, and every field records where it came from.
+- **[Project X](https://github.com/Jahanzaib211/project-x)**: a brokerage core built in dependency order. CI won't promote a module until its upstream modules pass their financial-invariant gates.
+- **[Ali Kernel](https://github.com/Jahanzaib211/ali-kernel)**: a single-binary Rust gateway that serves an OpenAI-compatible API, with tools, RAG memory and binary attestation.
+
+</details>
+
+---
+
+### How I build
+
+- **Fail closed.** If the GPU can't be measured, Loco admits no model. If a session isn't entitled, Nova Bots gives no engine access. A missing check is treated as a "no".
+- **Evidence over claims.** Every "done" names the command that ran and what it printed. Changes go through branches and PRs, never straight to `main`.
+- **Agents that ship PRs.** The Nova Bots team reviews, tests and opens pull requests against its own codebase, and a human approves every merge.
+- **Self-hosted by default.** Your data stays on your machine, models are your own, and nothing is silently substituted.
+- **Credit upstream.** Forks and borrowed designs are named in the README and `NOTICE`.
 
 ### Stack
 
-`Python` `TypeScript` `Rust` `PHP` `Next.js` `NestJS` `FastAPI` `LangGraph / LangChain` `PostgreSQL` `Redis` `Prisma` `Docker`
+`TypeScript` `JavaScript / Node` `Python` `Rust` · `LangGraph / LangChain` `FastAPI` `Express` `Next.js` · `PostgreSQL` `SQLite` · `Docker` `nginx` `Electron` · local LLMs (`llama.cpp`, OpenAI-compatible APIs)
 
-### Activity
+### Contact
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Jahanzaib211&show_icons=true&theme=transparent&hide_border=true&title_color=34e6c8&icon_color=7c5cff&text_color=9aa0ac&hide=stars" alt="Jahanzaib Ali's GitHub stats" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jahanzaib211&layout=compact&theme=transparent&hide_border=true&title_color=34e6c8&text_color=9aa0ac" alt="Most used languages" height="165">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jahanzaib211&theme=react-dark&hide_border=true&bg_color=00000000&color=9aa0ac&line=7c5cff&point=34e6c8&area=true" alt="Contribution activity graph" width="100%">
-
-</div>
+[alilabsx.com](https://alilabsx.com) · [LinkedIn](https://www.linkedin.com/in/jahanzaib-ali-labsx) · [Jahanzaib@alilabsx.com](mailto:Jahanzaib@alilabsx.com)
