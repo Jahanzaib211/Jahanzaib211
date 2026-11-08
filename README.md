@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
-  <b>I build self-hosted AI systems</b>: agent teams, agent sandboxes, local inference, and the commerce platform that pays for them.<br>
+  <b>I don't rent, I build.</b><br>
+  Self-hosted AI systems: AI workforces, agent sandboxes, local inference, and the commerce platform that pays for them.<br>
   Everything runs on your own hardware, refuses when it can't prove it is safe, and leaves evidence you can check.
 </p>
 
@@ -23,9 +24,9 @@
 <td width="50%" valign="top">
 
 ### 🤖 [Nova Bots](https://github.com/Jahanzaib211/nova-bots)
-A self-hosted team of long-lived AI bots, with group chats, handoffs and one engine per account.
+Your self-hosted AI workforce. You create AI workers, give each one a role and a model, and put them in groups. They coordinate on their own: they message each other, hand off work and share group chats.
 
-Multi-tenant portal: HMAC-signed sessions, token tiers, a fail-closed engine gate. My own bot team fixes the product through PRs that carry their evidence ([repair log](https://github.com/Jahanzaib211/nova-bots/blob/dev/docs/repair-log.md)).
+There's one engine per account behind a fail-closed, multi-tenant portal. My own AI workers fix the product through PRs that carry their evidence ([repair log](https://github.com/Jahanzaib211/nova-bots/blob/dev/docs/repair-log.md)).
 
 <a href="https://bots.alilabsx.com"><img src="https://img.shields.io/badge/live-bots.alilabsx.com-52f2c5?style=flat-square&logo=rocket&logoColor=05060a" alt="Live"></a>
 <img src="https://img.shields.io/badge/Node-Electron-1b2233?style=flat-square&logo=electron&logoColor=9feaf9" alt="Electron">
@@ -83,6 +84,19 @@ Each site gets its own database and file store, with templates, a visual editor,
 
 </details>
 
+## 💼 Work with me
+
+I take on work where owning the stack matters:
+
+- **Custom AI workforces.** I design AI workers with roles and tools for your team, and set them up on your hardware.
+- **Self-hosted AI infrastructure.** Local inference, agent sandboxes, multi-tenant portals, auth.
+- **Platform engineering.** Docker, nginx, CI/CD, hardening, and the servers it all runs on.
+
+<p>
+  <a href="mailto:Jahanzaib@alilabsx.com?subject=Project%20inquiry"><img src="https://img.shields.io/badge/Start_a_project-Jahanzaib@alilabsx.com-52f2c5?style=for-the-badge&logo=maildotru&logoColor=05060a" alt="Start a project"></a>
+  <a href="https://www.linkedin.com/in/jahanzaib-ali-labsx"><img src="https://img.shields.io/badge/Message_me-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn"></a>
+</p>
+
 ## 🤝 Partner
 
 <img src="https://img.shields.io/badge/Apex_Global_Tech_Solutions-Platform_Engineer-1b2233?style=for-the-badge&logoColor=52f2c5" alt="Apex Global Tech Solutions, Platform Engineer">
@@ -95,8 +109,8 @@ I also work with **Apex Global Tech Solutions** as its Platform Engineer.
 |---|---|
 | 🔒 **Fail closed** | If the GPU can't be measured, no model is admitted. If a session isn't entitled, it gets no engine. A missing check counts as a "no". |
 | 🧾 **Evidence over claims** | Every "done" names the command that ran and what it printed. Changes go through branches and PRs. |
-| 🤖 **Agents that ship PRs** | My bot team reviews, tests and opens pull requests against its own codebase, and a human approves every merge. |
-| 🏠 **Self-hosted by default** | Your data stays on your machine, the models are yours, and nothing is silently substituted. |
+| 🤖 **AI workers that ship PRs** | My AI workforce reviews, tests and opens pull requests against its own codebase, and a human approves every merge. |
+| 🏠 **I don't rent, I build** | It's self-hosted by default: your data stays on your machine, the models are yours, and nothing is silently substituted. |
 | 🙏 **Credit upstream** | Forks and borrowed designs are named in each README and `NOTICE`. |
 
 ## 🧰 Stack
