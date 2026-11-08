@@ -33,7 +33,7 @@ A multi-tenant store and site builder. Each site gets its own database and file 
 
 ### Partner
 
-**Apex Group of Companies**: I also work with Apex as its Platform Engineer.
+**Apex Global Tech Solutions**: I also work with Apex as its Platform Engineer.
 
 ### How I build
 
