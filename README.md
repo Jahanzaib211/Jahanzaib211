@@ -24,7 +24,7 @@
 <td width="50%" valign="top">
 
 ### 🤖 [Nova Bots](https://github.com/Jahanzaib211/nova-bots)
-**Build your bot army.** Spin up a bot for any job, give it a role, and let them collaborate: they hand off work, run in squads and report to a commander, on hardware you own.
+**Build your bot army.** Spin up a bot for any job, give it a role, and let them collaborate: they hand off work, run in squads and report to a commander. On our cloud, or self-hosted.
 
 There's one engine per account behind a fail-closed, multi-tenant portal. My own bot army fixes the product through PRs that carry their evidence ([repair log](https://github.com/Jahanzaib211/nova-bots/blob/dev/docs/repair-log.md)).
 
