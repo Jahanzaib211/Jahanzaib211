@@ -1,52 +1,114 @@
-# Jahanzaib Ali
+<p align="center">
+  <img src="assets/banner.svg" alt="Jahanzaib Ali, Founder & Systems Engineer at AliLabsX" width="100%">
+</p>
 
-**Founder & Systems Engineer at [AliLabsX](https://alilabsx.com).** Lahore. I build self-hosted AI systems: agent teams, agent sandboxes, local inference, and the commerce platform that pays for them.
+<p align="center">
+  <a href="https://alilabsx.com"><img src="https://img.shields.io/badge/alilabsx.com-05060a?style=for-the-badge&logo=googlechrome&logoColor=52f2c5" alt="Website"></a>
+  <a href="https://www.linkedin.com/in/jahanzaib-ali-labsx"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:Jahanzaib@alilabsx.com"><img src="https://img.shields.io/badge/Jahanzaib@alilabsx.com-52f2c5?style=for-the-badge&logo=maildotru&logoColor=05060a" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Lahore,_Pakistan-1b2233?style=for-the-badge&logo=googlemaps&logoColor=52f2c5" alt="Lahore, Pakistan">
+</p>
 
-I taught myself to build from scratch, and AliLabsX is where that work ships. Everything here is built to run on your own hardware, to refuse when it can't prove it is safe, and to leave evidence you can check.
+<p align="center">
+  <b>I build self-hosted AI systems</b>: agent teams, agent sandboxes, local inference, and the commerce platform that pays for them.<br>
+  Everything runs on your own hardware, refuses when it can't prove it is safe, and leaves evidence you can check.
+</p>
 
 ---
 
-### What I'm building
+## 🛠️ What I'm building
 
-**[Nova Bots](https://github.com/Jahanzaib211/nova-bots)**: a self-hosted team of long-lived AI bots ([bots.alilabsx.com](https://bots.alilabsx.com)).
-Forked from DS Bot (Apache-2.0, by Fei2411), then extended with a multi-tenant portal (HMAC-signed sessions, token tiers, a fail-closed engine gate, one engine container per account), host-folder mounts and a hardened desktop CSP. My own bot team (Tech Lead, Security Reviewer, QA, Gatekeeper) fixes bugs in the product through PRs that carry their evidence. See the [repair log](https://github.com/Jahanzaib211/nova-bots/blob/docs/repair-log/docs/repair-log.md).
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[Nova](https://github.com/Jahanzaib211/nova)**: the agent's computer ([nova.alilabsx.com](https://nova.alilabsx.com)).
-A computer-use agent with sub-agents, memory and a sandbox per thread, plus a live view of its Files, Terminal, Editor, Browser, Activity and Review. Built on DeerFlow (MIT) with LangGraph and LangChain.
+### 🤖 [Nova Bots](https://github.com/Jahanzaib211/nova-bots)
+A self-hosted team of long-lived AI bots, with group chats, handoffs and one engine per account.
 
-**[Loco](https://github.com/Jahanzaib211/loco)**: a local inference lab behind one endpoint.
-Routing is deterministic. VRAM-gated admission refuses a model with measured numbers instead of running out of memory. Long-term memory only changes when you approve it, and the lab UI has no dependencies.
+Multi-tenant portal: HMAC-signed sessions, token tiers, a fail-closed engine gate. My own bot team fixes the product through PRs that carry their evidence ([repair log](https://github.com/Jahanzaib211/nova-bots/blob/dev/docs/repair-log.md)).
 
-**Storeloom** (private, commercial): the commerce platform for every kind of brand.
-A multi-tenant store and site builder. Each site gets its own database and file store, and it comes with templates, a visual editor, apps, custom domains with automatic HTTPS, and paid publishing.
+<a href="https://bots.alilabsx.com"><img src="https://img.shields.io/badge/live-bots.alilabsx.com-52f2c5?style=flat-square&logo=rocket&logoColor=05060a" alt="Live"></a>
+<img src="https://img.shields.io/badge/Node-Electron-1b2233?style=flat-square&logo=electron&logoColor=9feaf9" alt="Electron">
+<img src="https://img.shields.io/badge/Docker-multi--tenant-1b2233?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
+
+</td>
+<td width="50%" valign="top">
+
+### 🖥️ [Nova](https://github.com/Jahanzaib211/nova)
+The agent's computer: a computer-use agent with sub-agents, memory and a sandbox per thread.
+
+You watch it live through six views: Files, Terminal, Editor, Browser, Activity and Review. Built on DeerFlow with LangGraph and LangChain.
+
+<a href="https://nova.alilabsx.com"><img src="https://img.shields.io/badge/live-nova.alilabsx.com-52f2c5?style=flat-square&logo=rocket&logoColor=05060a" alt="Live"></a>
+<img src="https://img.shields.io/badge/LangGraph-agents-1b2233?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph">
+<img src="https://img.shields.io/badge/Next.js-FastAPI-1b2233?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [Loco](https://github.com/Jahanzaib211/loco)
+A local inference lab behind one OpenAI-compatible endpoint.
+
+Routing is deterministic, and VRAM-gated admission refuses a model with numbers instead of running out of memory. Memory only changes when you approve it.
+
+<img src="https://img.shields.io/badge/llama.cpp-local_LLMs-1b2233?style=flat-square&logo=nvidia&logoColor=76B900" alt="llama.cpp">
+<img src="https://img.shields.io/badge/Python-router-1b2233?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
+
+</td>
+<td width="50%" valign="top">
+
+### 🛍️ Storeloom
+The commerce platform for every kind of brand. It's private and commercial.
+
+Each site gets its own database and file store, with templates, a visual editor, apps, custom domains with automatic HTTPS, and paid publishing.
+
+<a href="https://alilabsx.com"><img src="https://img.shields.io/badge/by-AliLabsX-52f2c5?style=flat-square&logoColor=05060a" alt="AliLabsX"></a>
+<img src="https://img.shields.io/badge/SaaS-multi--tenant-1b2233?style=flat-square&logo=shopify&logoColor=95BF47" alt="SaaS">
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary>More from the lab</summary>
+<summary><b>🔬 More from the lab</b></summary>
+<br>
 
-- **[Exora](https://github.com/Jahanzaib211/exora)**: a self-hosted B2B prospecting CRM. It works from public sources, and every field records where it came from.
-- **[Project X](https://github.com/Jahanzaib211/project-x)**: a brokerage core built in dependency order. CI won't promote a module until its upstream modules pass their financial-invariant gates.
-- **[Ali Kernel](https://github.com/Jahanzaib211/ali-kernel)**: a single-binary Rust gateway that serves an OpenAI-compatible API, with tools, RAG memory and binary attestation.
+| Project | What it is |
+|---|---|
+| [**Exora**](https://github.com/Jahanzaib211/exora) | A self-hosted B2B prospecting CRM. It works from public sources and records where every field came from. |
+| [**Project X**](https://github.com/Jahanzaib211/project-x) | A brokerage core built in dependency order. Each module must pass its financial-invariant gates before anything downstream builds on it. |
+| [**Ali Kernel**](https://github.com/Jahanzaib211/ali-kernel) | A single-binary Rust gateway with an OpenAI-compatible API, tools, RAG memory and attestation. |
 
 </details>
 
+## 🤝 Partner
+
+<img src="https://img.shields.io/badge/Apex_Global_Tech_Solutions-Platform_Engineer-1b2233?style=for-the-badge&logoColor=52f2c5" alt="Apex Global Tech Solutions, Platform Engineer">
+
+I also work with **Apex Global Tech Solutions** as its Platform Engineer.
+
+## 🧭 How I build
+
+| | |
+|---|---|
+| 🔒 **Fail closed** | If the GPU can't be measured, no model is admitted. If a session isn't entitled, it gets no engine. A missing check counts as a "no". |
+| 🧾 **Evidence over claims** | Every "done" names the command that ran and what it printed. Changes go through branches and PRs. |
+| 🤖 **Agents that ship PRs** | My bot team reviews, tests and opens pull requests against its own codebase, and a human approves every merge. |
+| 🏠 **Self-hosted by default** | Your data stays on your machine, the models are yours, and nothing is silently substituted. |
+| 🙏 **Credit upstream** | Forks and borrowed designs are named in each README and `NOTICE`. |
+
+## 🧰 Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,python,rust,nextjs,react,fastapi,postgres,sqlite,docker,nginx,electron,linux,githubactions,cloudflare&perline=8" alt="TypeScript, JavaScript, Node.js, Python, Rust, Next.js, React, FastAPI, PostgreSQL, SQLite, Docker, nginx, Electron, Linux, GitHub Actions, Cloudflare">
+</p>
+
+Also: LangGraph and LangChain, llama.cpp, OpenAI-compatible APIs, MCP.
+
 ---
 
-### Partner
-
-**Apex Global Tech Solutions**: I also work with Apex as its Platform Engineer.
-
-### How I build
-
-- **Fail closed.** If the GPU can't be measured, Loco admits no model. If a session isn't entitled, Nova Bots gives no engine access. A missing check is treated as a "no".
-- **Evidence over claims.** Every "done" names the command that ran and what it printed. Changes go through branches and PRs, never straight to `main`.
-- **Agents that ship PRs.** The Nova Bots team reviews, tests and opens pull requests against its own codebase, and a human approves every merge.
-- **Self-hosted by default.** Your data stays on your machine, models are your own, and nothing is silently substituted.
-- **Credit upstream.** Forks and borrowed designs are named in the README and `NOTICE`.
-
-### Stack
-
-`TypeScript` `JavaScript / Node` `Python` `Rust` · `LangGraph / LangChain` `FastAPI` `Express` `Next.js` · `PostgreSQL` `SQLite` · `Docker` `nginx` `Electron` · local LLMs (`llama.cpp`, OpenAI-compatible APIs)
-
-### Contact
-
-[alilabsx.com](https://alilabsx.com) · [LinkedIn](https://www.linkedin.com/in/jahanzaib-ali-labsx) · [Jahanzaib@alilabsx.com](mailto:Jahanzaib@alilabsx.com)
+<p align="center">
+  <a href="https://alilabsx.com"><b>alilabsx.com</b></a> · <a href="mailto:Jahanzaib@alilabsx.com">Jahanzaib@alilabsx.com</a> · <a href="https://www.linkedin.com/in/jahanzaib-ali-labsx">LinkedIn</a>
+</p>
