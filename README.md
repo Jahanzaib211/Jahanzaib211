@@ -31,6 +31,10 @@ A multi-tenant store and site builder. Each site gets its own database and file 
 
 ---
 
+### Partner
+
+**Apex Group of Companies**: I also work with Apex as its Platform Engineer.
+
 ### How I build
 
 - **Fail closed.** If the GPU can't be measured, Loco admits no model. If a session isn't entitled, Nova Bots gives no engine access. A missing check is treated as a "no".
