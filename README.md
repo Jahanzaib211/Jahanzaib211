@@ -10,14 +10,21 @@ I founded **[ALI LABS X](https://github.com/Ali-Labs-X)**, an independent techno
 
 **You define the problem. We engineer the solution.**
 
-## Products
+## The thinking behind our products
 
-| Product | What it does | Links |
-|---|---|---|
-| **NOVA BOTS** | A team of long-lived AI bots with roles that share chats and hand work to each other. Cloud or self-hosted. | [Open](https://bots.alilabsx.com) · [Code](https://github.com/Ali-Labs-X/nova-bots) |
-| **NOVA** | The agent's computer: watch an AI agent work through its files, terminal, editor and browser. | [Open](https://nova.alilabsx.com) · [Code](https://github.com/Ali-Labs-X/nova) |
-| **LOCO** | Open-source local inference lab: one OpenAI-compatible endpoint, predictable routing, and a GPU memory check before a model loads. | [Code](https://github.com/Ali-Labs-X/loco) |
-| **STORELOOM** | Commerce platform with storefronts, a visual editor, apps and custom domains. Private and commercial. | [Ask for a demo](mailto:Jahanzaib@alilabsx.com?subject=STORELOOM%20demo) |
+<table>
+<tr><td width="90" align="center"><img src="https://raw.githubusercontent.com/Ali-Labs-X/.github/main/profile/assets/nova-bots-mark.svg" width="56" alt=""></td><td><b>NOVA BOTS</b><br>What if AI worked like a well-run team? Bots with clear roles share context, hand work along and leave the final decision to a person.<br><a href="mailto:Jahanzaib@alilabsx.com?subject=NOVA%20BOTS%20private%20demo%20request">Request a private demo</a> &nbsp; <a href="https://github.com/Ali-Labs-X/nova-bots">Read the source code</a></td></tr>
+<tr><td width="90" align="center"><img src="https://raw.githubusercontent.com/Ali-Labs-X/.github/main/profile/assets/nova-mark.svg" width="56" alt=""></td><td><b>NOVA</b><br>What if you could see how an AI agent does its work? NOVA gives the agent its own computer, so every step can be inspected.<br><a href="mailto:Jahanzaib@alilabsx.com?subject=NOVA%20private%20demo%20request">Request a private demo</a> &nbsp; <a href="https://github.com/Ali-Labs-X/nova">Read the source code</a></td></tr>
+<tr><td width="90" align="center"><img src="https://raw.githubusercontent.com/Ali-Labs-X/.github/main/profile/assets/loco-mark.svg" width="56" alt=""></td><td><b>LOCO</b><br>What if local AI told you the truth about its limits? LOCO checks memory before it loads a model. Open source under Apache 2.0.<br><a href="mailto:Jahanzaib@alilabsx.com?subject=LOCO%20private%20demo%20request">Request a private demo</a> &nbsp; <a href="https://github.com/Ali-Labs-X/loco">Read the source code</a></td></tr>
+<tr><td width="90" align="center"><img src="https://raw.githubusercontent.com/Ali-Labs-X/.github/main/profile/assets/storeloom-mark.svg" width="56" alt=""></td><td><b>STORELOOM</b><br>What if a storefront could grow without losing its shape? Design and operations in one system, with separate data for each site.<br><a href="mailto:Jahanzaib@alilabsx.com?subject=STORELOOM%20private%20demo%20request">Request a private demo</a></td></tr>
+</table>
+
+## Problems we solve
+
+We build the answer as infrastructure the client owns. It can be branded for the client or built from zero.
+
+Team chat, calendar and booking, knowledge base, file storage, customer platform, help desk, project workspace, business dashboards, workflow automation, video meetings, single sign-in, private AI assistant, online store and system monitoring.
+
 
 ## What I work on
 
