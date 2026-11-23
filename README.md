@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="Jahanzaib Ali, Founder and Systems Engineer, ALI LABS X" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Jahanzaib Ali, Founder, CEO and Systems Engineer, ALI LABS X" width="100%"></p>
 
 <p align="center">
 <a href="https://alilabsx.com"><img src="https://img.shields.io/badge/alilabsx.com-0268F4?style=for-the-badge" alt="alilabsx.com"></a>
@@ -6,7 +6,7 @@
 <a href="mailto:Jahanzaib@alilabsx.com"><img src="https://img.shields.io/badge/Email-04A9D6?style=for-the-badge" alt="Email"></a>
 </p>
 
-I founded **[ALI LABS X](https://github.com/Ali-Labs-X)**, an independent technology engineering company in Lahore, Pakistan. We build bespoke software, private AI and infrastructure that organizations can own, operate and evolve.
+I am the founder and CEO of **[ALI LABS X](https://github.com/Ali-Labs-X)**, an independent technology engineering company in Lahore, Pakistan. We build bespoke software, private AI and infrastructure that organizations can own, operate and evolve.
 
 **You define the problem. We engineer the solution.**
 
